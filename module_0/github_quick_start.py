@@ -3,7 +3,7 @@ def number():
     from random import random
     return (1+random()*100)
 def game_core_v3(number):
-    count = 1
+    count = 0
     start_int = 1
     end_int = 100
     predict = np.random.randint(1,101)
